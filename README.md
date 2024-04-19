@@ -1,4 +1,4 @@
-# automotive-iot
+# Automotive2Cloud
 Background
 
 * ISO/SAE 21434 requires threat analysis and risk assessment (TARA) process for vehicles/components
