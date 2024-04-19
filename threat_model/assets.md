@@ -1,1 +1,70 @@
+User Based Systems
+- Infotainment and display systems
+  --Hardware
+  ----Touchscreen
+  ----Speakers and Audio
+  ----Microphones
+  ----HUD
+  ----Instrument Cluster
+  --Software
+  ----UI
+  ----Voice recognition
+  ----Multimedia
+- Connectivity systems
+- --Hardware
+- ----Wi-Fi
+- ----Bluetooth
+- --Softwarae
+- ----Connectivity Management
+- ----Smartphone Integration
+- Navigation systems
+-- Hardware
+  ----GPS
+-- Software
+  ---- Navigation
+  ----Maps
+  
+Internal Systems
+- Camera systems
+- -- Hardware
+- ----Forward / Rear Cameras
+- ----360 Surround cameras
+- ----Infrared cameras
+- --Software
+- ----Image processing software
+- ----Object Detection / Recognition
+- Network systems
+- --Hardware
+- ----Cellular/V2X
+- ----OBU
+- ----Telematics Control Unit (TCU)
+- --Software
+- ----Network Management Software
+- ----OTA Update Software
+- ----Security Software
+- -------Access Control
+- -------Intrusion Prevention/Detection
+- Vehicle control systems
+- --CPU
+- --GPU
+- --ECU
+- --Steering Actuators
+- --Throttle Actuators
+- --Brake Actuators
+- --ADAS Software
+- --Control Algorithms
+- --Sensor Fusion
+- Telemetry Systems
+- -- Hardware
+- ----Sensors
+- ----Intertial Measurement Unit (IMU)
+- ----Electronic Logging Devices (ELD)
+- --Data Logging and Analysis Software
+- Energy and Power systems
+- -- Hardware
+- ----Battery Management System (BMS)
+- ----Voltage Coverters/Regulators
+- --Energy Management Software
+- --Charging Control Software
+
 
