@@ -7,7 +7,7 @@ A number of models have been used to determine the threats to automotive assets.
 Threat analysis and risk assessment.
 
 
-<b>STRIDE</b>
+<b>STRIDE</b> <p></p>
 This model was developed within Microsoft and stands for:
 <l>
 <li>Spoof</li>
@@ -19,9 +19,9 @@ This model was developed within Microsoft and stands for:
 </l>
 
 <p></p>
-<b>EVITA</b>
+<b>EVITA</b> <p></p>
 e-safety vehicle intrusion protected 
-<b>PIER</b>
+<p></p><b>PIER</b>
 <l>
 <li>Probability</li>
 <li>Impact</li>
