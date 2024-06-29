@@ -24,3 +24,5 @@ Over the air parameter administration - procedure to update operational paramete
 
 
 The full lifecycle of updating software begins with a cloud native secure software development process where software is developed and tested in separate environments (DTAP). The full suite of security testing (static, dynamic, fuzzing) should be shifted left and continually run during the CI/CD process. Pentesting should also be carried out before deploying to the production environment and then tested in production. The infrastructure on which the development process runs should be built on the principle of zero trust. Software should be verified and signed before deployment through a secure deployment system. The attack paths considered here are over the full creation and deployment flow.
+<p></p>
+![cloud OTA delivery](/../../img/ota-cloud.png)
