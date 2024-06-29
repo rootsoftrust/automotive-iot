@@ -1,0 +1,1 @@
+Host area for images
