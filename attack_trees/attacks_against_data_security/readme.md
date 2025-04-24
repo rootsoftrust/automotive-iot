@@ -8,4 +8,14 @@ In the automotive ecosystem, there are various types of data which are transfere
   <li>telemetrics from the vehicle</li>
   <li>data related to the safe operation of the vehicle</li>
 </ul>
-This data is collected in backend storage and transfered between vehicle and cloud mainly through the use of API's.
+
+<ul>The data above has various security needs, including:
+<li>payment data must be confidential, have data origin authenticity which also implies integrity to reduce fraud.</li>
+<li>location data must be confidential to ensure privacy.</li>
+<li>firmware updates require confidentiality, data origin authenticity, integrity and availability to protect against malware, person-in-the-middle attacks. </li>
+<li>authentication data must be confidential, have data origin authenticity and availability.</li>
+</ul>
+
+
+
+This data is transfered between vehicle and cloud mainly through the use of API's.
