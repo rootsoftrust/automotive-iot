@@ -19,3 +19,5 @@ In the automotive ecosystem, there are various types of data which are transfere
 
 
 This data is transfered between vehicle and cloud mainly through the use of API's.
+<p></p>
+This data must be classified based on the risk of a security breach and the impact of the breach on the safe operation of the vehicle. Once a claasificarion scheme has been generated, a NIST CSF profile can be made and CSA matrix controls applied where mitigation is necessary. 
