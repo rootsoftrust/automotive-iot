@@ -1,0 +1,145 @@
+Attacks against data security in cars and vehicles primarily target the fundamental security properties of vehicular information and software assets: Confidentiality, Integrity, Authenticity, and Availability.
+
+These attacks encompass the unauthorized acquisition, modification, or disruption of sensitive data, configuration parameters, and proprietary code.
+
+The possible attacks are listed below:
+
+##I. Confidentiality and Privacy Attacks (Information Disclosure)
+These attacks involve the unauthorized access to or theft of sensitive information stored, generated, or transmitted by the vehicle.
+
+Extraction of Confidential Data and PII:
+
+Theft of Personally Identifiable Information (PII) and Business Data. This includes unauthorized access to the owner’s privacy information such as personal identity, payment account information, address book information, location information, or the vehicle’s electronic ID.
+
+Extraction of Cryptographic Keys. Gaining knowledge of the secret cryptographic key allows the device to be manipulated and/or cloned.
+
+Extraction of Copyright or Proprietary Software from vehicle systems (product piracy or IP theft).
+
+Extraction of Vehicle Data/Code in general.
+
+Eavesdropping and Interception:
+
+Eavesdropping Attacks aim to obtain confidential information by listening to the communication channel. This can result in unauthorized disclosure of messages, especially if communication is transmitted in plaintext over an insecure channel. Eavesdropping is a passive attack and is difficult to track.
+
+Interception of Information/Monitoring Communications through interfering radiations, which readily discloses information.
+
+Wiretapping private information or monitoring the communication between ECUs (e.g., CAN messages).
+
+Surveillance and Tracking Attacks:
+
+Location Privacy Threats that reveal the vehicle and passenger identities for tracking and feeding social profiling. This includes monitoring location, speed, and direction, which can be linked back to the driver’s identity.
+
+Surveillance Attacks that hack voice recognition systems (e.g., microphones) to listen to drivers/passengers, or take control of the vehicle black box system.
+
+Traffic Analysis Attacks that aim to deduce information by intercepting and analyzing the pattern of messages, which can be performed even for encrypted communications.
+
+Attacks Exploiting Server Access:
+
+Loss of Information in the Cloud when sensitive data is stored by third-party cloud service providers, due to attacks or accidents.
+
+Unauthorized Internet Access to the Server (e.g., enabled by backdoors, unpatched system software, or SQL attacks).
+
+Abuse of Privileges by Staff (Insider Attack) to compromise vehicle-related data held on back-end servers.
+
+II. Integrity and Manipulation Attacks
+These attacks involve the unauthorized modification, corruption, or fabrication of data, software, or configuration settings within the vehicle, thereby compromising the trustworthiness of the information.
+
+Data Falsification and Corruption:
+
+Data Manipulation Attacks where the hacker tries to access and manipulate data from the vehicular cloud.
+
+False Data Injection (FDI) Attacks corrupt sensor and actuator data. These attacks can be stealthy, designed to maintain stealth while making the system unsafe.
+
+Fuzzing Attacks are modification attacks where random values are injected into the data field of CAN frames, causing unexpected behavior.
+
+Message Tampering/Modification Attacks where the attacker alters the message communicated between two parties, which can include message suppression, message alteration, or message fabrication.
+
+Unauthorized Changes to Vehicle Parameters: Falsifying configuration parameters of key functions (e.g., brake data, airbag deployment threshold).
+
+Data Manipulation to Falsify Vehicle Driving Data such as mileage/odometer, driving speed, or driving directions.
+
+Unauthorized Changes to System Diagnostic Data.
+
+Unauthorized or Illegal Changes to Vehicle’s Electronic ID.
+
+Unauthorized Modification of ECUs' Programs or Data.
+
+Code and Software Corruption:
+
+Injection of Malicious Code/Malware such as viruses, worms, or trojan horses, often introduced through external software units or firmware updates.
+
+Fabrication of Software of the vehicle control system or information system.
+
+Communications Channels Permitting Code Injection.
+
+Compromise of Update Procedures by fabricating the system update program or firmware.
+
+Manipulating the Software before the Update Process (even if the update process itself is intact).
+
+Adversarial Machine Learning Attacks (Targeting Perception Data Integrity):
+
+Adversarial Attacks exploit vulnerabilities in machine learning models by crafting inputs (adversarial examples) to mislead the model.
+
+Poisoning Attacks aimed at deceiving systems or users by manipulating the integrity of data, often by tampering with the training data of machine learning models.
+
+Attacks Circumventing Security Controls:
+
+Action to Circumvent Monitoring Systems (e.g., hacking/tampering/blocking of messages such as ODR Tracker data or number of runs).
+
+Exploit of Testing Functionality that is not properly deactivated, which can be misused for internal data disclosure or modification.
+
+Disclaiming of Liability (Repudiation) refers to methods that enable a malicious party to conceal or deny that they are the origin of certain information (countered by non-repudiation).
+
+III. Authenticity and Access Control Attacks (Affecting Trustworthiness)
+These attacks focus on faking identity, denying legitimate sources, or misusing legitimate data to deceive receiving systems.
+
+Identity and Source Impersonation:
+
+Spoofing of Messages or Data received by the vehicle. This includes spoofing V2X messages or GNSS messages.
+
+Masquerading/Impersonation Attacks where the attacker pretends to be an existing ECU or a valid communication party. The attacker illegitimately uses the victim's authenticated information to access the device.
+
+Identity Fraud (e.g., if a user wants to display another identity when communicating with toll systems or manufacturer backend).
+
+Sybil Attack where the attacker creates multiple virtual identities for a single vehicle in order to spoof other vehicles or overwhelm the network.
+
+Replay and Relaying Attacks:
+
+Replay Attacks involve capturing valid communication (or parts of it) and maliciously re-sending or delaying it later.
+
+Man-in-the-Middle (MITM) Attacks where an attacker intercepts communication between devices to eavesdrop or manipulate data.
+
+Session Hijacking Attacks where the attacker hijacks the communication session to gain unauthorized access and modify information.
+
+Physical and Logical Access Control Attacks:
+
+Elevation of Privilege: An unprivileged user gaining privileged access to vehicle systems, such as root access.
+
+Gaining Access via External Interfaces such as USB, other ports, or diagnostic access (e.g., dongles in the OBD port) used to facilitate an attack or inject code.
+
+Attacks on Hardware Security: Physically manipulating electronic hardware (e.g., adding unauthorized hardware to enable MITM) or replacing authorized hardware.
+
+Abusing Physical/Local Update Procedures to install infected or modified firmware.
+
+Access Control Attacks such as dictionary or brute force attacks used to steal vehicle credentials.
+
+IV. Availability Attacks (Denial of Service)
+These attacks disrupt the timely access to data, communication, or services, often by flooding resources.
+
+Denial of Service (DoS) Attacks: These attacks disrupt systems or operations by hindering a vehicle from working correctly.
+
+DoS can be triggered on the internal network by flooding a CAN bus, or by provoking faults on an ECU via a high rate of messaging.
+
+Sending a large number of garbage data to vehicle information systems, rendering them unable to provide services normally.
+
+Attacks on back-end servers that stop them functioning and prevent them from interacting with vehicles and providing services they rely on (DoS against infrastructure).
+
+Black Hole Attacks disrupt communication between vehicles by blocking the transfer of messages.
+
+Jamming Attacks intentionally disturb communication channels.
+
+DDoS Attacks exhaust network resources and cause service interruptions.
+
+Denial of Legitimate Updates: Preventing the rollout of critical software updates and/or customer-specific features by DoS attacks against the update server or network.
+
+Erasure of Data/Code: Unauthorized deletion or manipulation of system event logs.
